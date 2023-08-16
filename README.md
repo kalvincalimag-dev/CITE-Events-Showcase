@@ -1,7 +1,4 @@
 # CITE-Events-Showcase
-
-# About
-
 A simple events showcasing website dedicated to curating and presenting an extensive array of events hosted by the PHINMA-UPang College of Information Technology.
 
 # Screenshots
