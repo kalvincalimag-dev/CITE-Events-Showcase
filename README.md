@@ -15,4 +15,3 @@ A simple events showcasing website dedicated to curating and presenting an exten
 
 ![Main Page (2)](https://github.com/kalvincalimag-dev/CITE-Events-Showcase/assets/121149046/8b9e5cdd-a7b0-4dd2-850e-cc9ff84cab38)
 ![Komsayahan (5)](https://github.com/kalvincalimag-dev/CITE-Events-Showcase/assets/121149046/8c4d8a30-b459-4e91-8c19-5acab2b513a8)
-![Team Page (1)](https://github.com/kalvincalimag-dev/CITE-Events-Showcase/assets/121149046/280b68e1-a197-45b5-a6b4-e70d5ae15b88)
