@@ -1,0 +1,14 @@
+COLORS: 
+
+Yellow - #fafb63
+Blue Green - #6bfff7
+Black 1 - 000000 
+Black 2 - #060f12
+White - #ffffff 	
+
+MAIN SLIDES DIMENSIONS
+
+1200 x 615
+16.667
+8.542
+72

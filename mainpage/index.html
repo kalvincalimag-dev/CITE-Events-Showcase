@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Complete Bootstrap 4 Website Layout</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+	<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+	<link href="style.css" rel="stylesheet">
+</head>
+<body>
+
+<!-- Navigation -->
+<nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+<div class="container-fluid">
+	<a class="navbar-brand" href="index.html"><img src=	"../img/logo.png"></a>
+	<button class="navbar-toggler" type="button" data-toggle="collapse"
+	data-target="#navbarResponsive">
+		<span class="navbar-toggler-icon"></span>
+	</button>
+	<div class="collapse navbar-collapse" id="navbarResponsive">
+		<ul class="navbar-nav ml-auto">
+			<li class="nav-item">					
+			    <a class="nav-link" href="index.html">Home</a>		
+			</li>
+			<li class="nav-item">
+			    <a class="nav-link" href="https://www.facebook.com/phinma.upang.citesc">UP-CITE</a>
+			</li>
+			<li class="nav-item">
+			    <a class="nav-link" href="../teampage/team.html">Team</a>
+			</li>
+		</ul>
+	</div>
+</div>
+</nav> 
+
+
+<!--- Image Slider -->
+<div id="slides" class="carousel slide" data-ride="carousel">
+<ul class="carousel-indicators">
+	<li data-target="#slides" data-slide-to="0" class="active"></li>
+	<li data-target="#slides" data-slide-to="1"></li>
+	<li data-target="#slides" data-slide-to="2"></li>
+</ul>
+<div class="carousel-inner">
+	<div class="carousel-item active">
+		<img src="../img/background.png"> 
+		<div class="carousel-caption">
+			<h1 class="display-2">CITE 2K22 AFFAIRS</h1>
+			<h3>Complete Documentation of Events</h3>
+			<button type="button" class="btn btn-outline-light btn-lg" onClick="document.getElementById('checktheevents').scrollIntoView();">View Documentation</button>
+		</div>
+	</div>
+	<div class="carousel-item">
+		<img src="../img/background2.png">
+	</div>
+	<div class="carousel-item">
+		<img src="../img/background3.png">
+	</div>
+</div>
+</div>
+
+<!--- Jumbotron -->
+<div class="container-fluid">
+<div class="row jumbotron">
+	<div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 col-xll10">
+		<p class="lead"> This website was created in compliance to ITE232: Advanced Web Development subject requirements under sir Francis Gonzales of PHINMA-University of Pangasinan.</p>
+	</div>
+	<div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-2">
+		<a href="https://classroom.google.com/u/0/c/NTc0OTUzNjk5ODg3/a/NTc5Nzg3MDcxNzcw/details"><button type="button" class="btn btn-outline-secondary btn-lg">Check it out</button></a>
+	</div>
+</div>
+</div>
+ 
+  
+<!--- Check the events -->
+<div class="container-fluid padding">
+<div class="row welcome text-center">
+	<div class="col-12" id="checktheevents">
+		<h1 class="display-4">CITE Highlights 2K22 </h1>
+		<hr>
+
+	</div>
+</div>
+</div>
+
+<!--- Cards -->
+<div class="container-fluid padding">
+<div class="row padding">
+	<div class="col-md-4">
+		<div class="card">
+			<img class="card-imd-top" src="../img/hackathontumbnail.png"> 
+			<div class="card-body">
+				<h4 class="card-title">PNP-ITMS Hackathon</h4>
+				<p>CITE Trojans champion the 3rd PNP-ITMS Hackathon</p>
+				<a href="../hackathonpage/hackathon.html" class="btn btn-outline-secondary">Check it out</a>
+			</div>
+		</div>	
+	</div>
+
+	<div class="col-md-4" >
+		<div class="card">
+			<img class="card-imd-top" src="../img/komsayahanthumbnail.png"> 
+			<div class="card-body">
+				<h4 class="card-title">CITEFEST: Komsayahan 2k22</h4>
+				<p>Komsayahan 2k22 Metaverse-themed Cosplay Event </p>
+				<a href="../komsayahanpage/komsayahan.html"	 class="btn btn-outline-secondary">Check it out</a>
+			</div>
+		</div>	
+	</div>
+
+	<div class="col-md-4">
+		<div class="card">
+			<img class="card-imd-top" src="../img/devexhibitthumbnail.png"> 
+			<div class="card-body">
+				<h4 class="card-title">Dev Exhibit</h4>
+				<p>Project Application Demonstrations by CITE Trojans</p>
+				<a href="../devexhibitpage/devexhibit.html" class="btn btn-outline-secondary">Check it out</a>
+			</div>
+		</div>	
+	</div>
+
+</div>
+</div>
+
+
+<!--- Footer -->
+
+<footer>
+	<div class="container-fluid padding">
+	<div class="row text-center">
+		<div class="col-md-4">
+			<img src="../img/logo.png">
+			<hr class="light">
+			<p>(+63)927-461-0304</p>
+			<p>madeupemailup@phinmaed.com</p>
+			<p>Arellano Street</p>
+			<p>Dagupan City, Pangasinan, 2400</p>
+			<p>https://www.facebook.com/madeupfbpage/</p>
+		</div>
+
+		<div class="col-md-4">
+			<hr class="light">
+			<h5>School Hours</h5>
+			<hr class="light">
+			<p>Wednesday: 7am - 3pm</p>
+			<p>Thursday: 7am - 12pm</p>
+			<p>Friday: 7am - 3pm</p>
+			<p>Saturday: 2pm - 4pm</p>
+			<p>Sunday: Vacant</p>	
+		</div>
+
+		<div class="col-md-4">
+			<hr class="light">
+			<h5>Our Team</h5>
+			<hr class="light">
+			<p>Kalvin Isaiah D. Calimag</p>
+			<p>Jose Vincent Bibay</p>
+			<p>Jerome Montemayor</p>
+			<p>Adrian Zarate</p>
+			<p>Lorenz Cajalne</p>
+		</div>
+
+		<div class="col-12">
+			<hr class="light">
+			<p>Copyright &copy; <script>document.write(new Date().getFullYear());</script> All rights reserved </p>
+		</div>
+
+	</div>
+	</div>
+</footer>
+
+</body>
+</html>
+
